@@ -1,37 +1,103 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+    <title>My Profile</title>
 
-You can use the [editor on GitHub](https://github.com/lcobbs/lcobbs.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <style type="text/css">
+      #banner {
+        img src:"Images/backgrounds-fog-7919.jpg"
+           Width:1900px; 
+           height:400px; 
+        
+           } 
+       #menu-bar-container{
+           height:30px;
+          margin:0
+          width:1900px;
+          background-color:#FFCC99 ;
+       }
+       #menu-bar a{
+           position:relative;
+           color:#06437A;
+           text-decoration-color:white;
+           padding: 0 10px;
+           border-right: 1px solid #EA9546;
+           font-size: 18px;
+           top:10px;
+       }
+       p{
+        color:black;
+           font-size:100%;
+            }
+       body {
+           background-color: #DFD1CF;
+           font-family: sans-serif,Helvetica,Arial;
+       }
+     .container { 
+          position: relative;
+         
+           }
+       /*bottom right text*/
+       .text-block{
+           position: absolute;
+           bottom: 20px;
+           right:20px;
+           background-color: none
+          font-weight:bold;
+           color: white;
+           padding-left: 20px;
+           padding-right: 20px;
+       }
+       .float-img{
+           float:left;
+           margin-right: 10px;
+           margin-bottom: 5px;
+           border:solid black 1px;
+           padding: 2px;
+       }
+       .clear{
+          clear:both; 
+       }
+    </style>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lcobbs/lcobbs.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ <div class="container">  
+    <img src="Images/backgrounds-fog-7919.jpg" Width="1900" height="400" style="width:100%"> 
+    <div Class="text-block">
+        
+      <h1>MY PROFILE!</h1>
+   
+       </div>
+    </div>
+     <div id="menu-bar-container">
+       <div id="menu-bar">
+           <a href="index.html"> Home</a>
+           <a href="myinterest.html">My Interests</a>
+           <a href="education.html">Education</a>
+           <a href="personalprofile.html">Personal Profile</a>
+           <a href="job.html">Job</a>
+           <a href="gallery.html">Gallery</a>
+            </div> 
+    
+  <div> 
+  <img src="Images/mypic.jpg"width="500px" hieght="600px" alt="Picture of me" class="float-img"/>
+      <div>
+      
+      <h1>My Profile!</h1>
+          <p>My Name is Lillian Cobbs</p>
+          <p>Student Number:s3755138</p>
+          <p>Email:s3755138@student.rmit.edu.au</p>
+          <p>I am from Geraldton W.A</p>
+          <p>I came to RMIT to study java code <br>but now i am also studing IT Programing with the <br> hope of get some part time work from home once i finish my studies.
+          <p>Before i came to Geraldton i Lived south of Perth W.A<br> Where i study at T.A.F.E and completed 4 cousres.</p>
+        </div>  
+    </div>
+</div>
+   
+</body>
+</html>
